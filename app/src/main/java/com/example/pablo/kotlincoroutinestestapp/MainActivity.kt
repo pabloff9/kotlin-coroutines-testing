@@ -28,7 +28,6 @@ class MainActivity : AppCompatActivity() {
             progressBar.visibility = VISIBLE
 
             val finalData = getRemoteData()
-
             textView.text = finalData[0] + " " + finalData[1]
 
             textView.visibility = VISIBLE
